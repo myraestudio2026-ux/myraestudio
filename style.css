@@ -1,0 +1,210 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  color: #222;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #111;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu a:hover {
+  opacity: 0.6;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 10%;
+  text-align: center;
+  background: #f5f3ef;
+}
+
+/* SERVICIOS */
+.servicios {
+  padding: 50px 20%;
+  text-align: center;
+}
+
+.servicios-grid {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.servicios-grid div{
+ max-width: 250px
+}
+
+.servicios-grid p{
+color: #777;
+line-height: 1.5;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  padding: 50px 10%;
+  background-color: #f5f3ef;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.galeria img {
+  width: 400px;
+  border-radius: 12px;
+  transition: 0.5s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* CTA */
+.cta {
+  padding: 20px 10%;
+  text-align: center;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 30px;
+  border: 1px solid #222;
+  text-decoration: none;
+  color: #222;
+  transition: 0.5s;
+}
+
+.boton:hover {
+  background: #222;
+  color: white;
+}
+
+/* CONTACTO */
+.contacto {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+/* FOOTER */
+footer{
+  border-top:1px solid #eee;
+  padding:30px 10%;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  font-size:0.9rem;
+  background: #eee;
+}
+
+.hablemos {
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.sobrenosotros {
+  padding: 20px;
+  text-align: center;
+  background: #f5f3ef;
+  transition: 0.3s ease;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  border-radius: 50px 
+
+}
+
+.sobrenosotros {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobrenosotros img {
+  width: 400px;
+  border-radius: 12px;
+  transition: 0.5s ease;
+}
+
+.sobrenosotros img:hover {
+  transform: scale(1.05);
+}
+
+.my {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.instagram-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.instagram-link i {
+  font-size: 30px;
+}
